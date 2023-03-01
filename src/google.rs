@@ -195,7 +195,8 @@ pub mod protobuf {
         fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
             write!(
                 f,
-                "{self:?} is not representable as a `SystemTime` because it is out of range"
+                "{:?} is not representable as a `SystemTime` because it is out of range",
+                self
             )
         }
     }
