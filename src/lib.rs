@@ -216,10 +216,10 @@ pub mod ics23 {
     include_proto!("ics23.rs");
 }
 
-pub mod stride {
+pub mod stayking {
     pub mod interchainquery {
         pub mod v1 {
-            include_proto!("stride.interchainquery.v1.rs");
+            include_proto!("stayking.interchainquery.v1.rs");
         }
     }
 }
